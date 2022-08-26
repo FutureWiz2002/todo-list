@@ -23,3 +23,12 @@ function App() {
 }
 
 export default App;
+
+export class MyName extends React.Component {
+  render() {
+
+  <div>
+    <p>Create a new class check</p>
+  </div>
+  }
+}
