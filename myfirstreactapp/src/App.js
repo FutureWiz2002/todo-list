@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Jabir is the future of programmers and AI research scientist, the rests can go to sleep.
+          Hello there.asdfasd
         </p>
         <a
           className="App-link"
@@ -22,13 +22,10 @@ function App() {
   );
 }
 
-export default App;
 
-export class MyName extends React.Component {
-  render() {
 
-  <div>
-    <p>Create a new class check</p>
-  </div>
-  }
+function Lol() {
+  return (
+    <h1>Another attempt</h1>
+  )
 }
