@@ -1,0 +1,11 @@
+* {
+  background-color: aqua;
+  transition: 0.1s;
+}
+header {
+  text-align: center;
+}
+.completed {
+    background-color: darkgray;
+    color: grey;
+}
