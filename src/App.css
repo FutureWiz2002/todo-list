@@ -1,11 +1,22 @@
-* {
-  background-color: aqua;
+body {
+  background-image: linear-gradient(to right, #E55D87 ,#5FC3E4) ;
   transition: 0.1s;
+  
 }
 header {
   text-align: center;
+  color: white;
+
 }
 .completed {
     background-color: darkgray;
     color: grey;
+
+}
+.todo-item {
+  padding: 10px;
+  background-color: white;
+  margin: auto;
+  list-style: none;
+  
 }
