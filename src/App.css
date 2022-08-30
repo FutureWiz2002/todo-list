@@ -34,7 +34,6 @@ form input, form button, .select {
   border-radius: 10px;
   height: 49px;
 
-
 }
 
 form input {
@@ -59,7 +58,7 @@ form button {
 }
 
 form button:hover {
-  background-color: lightpink;
+  background-color: rgb(101, 236, 122);
   transition: 0.2s;
 }
 
@@ -82,8 +81,7 @@ form {
   background-color: rgb(233, 233, 233);
   margin: auto;
   list-style: none;
-
-  
+ 
 }
 .completed {
     background-color: rgb(255, 154, 154);
@@ -114,10 +112,19 @@ li {
   border: none;
   
 }
+
+.complete-button:hover {
+  background-color: rgb(44, 255, 51);
+
+}
 .trash-button{
   padding: 0px 10px;
-  background-color: rgb(252, 164, 178);
+  background-color: rgb(255, 167, 167);
   border: none;
   
+}
+.trash-button:hover {
+  background-color: rgb(255, 126, 126);
+
 }
 
