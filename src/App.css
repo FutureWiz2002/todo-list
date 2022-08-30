@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #86E3CE;
+  background: rgb(34,193,195);
+  background: linear-gradient(94deg, rgba(34,193,195,1) 0%, rgb(255, 213, 122) 100%);
   font-family: sans-serif;
   width: 100%;
   
@@ -19,7 +20,7 @@ header, form {
 }
 
 header {
-  color: rgb(80, 80, 80);
+  color: rgb(47, 47, 47);
   margin: 20px;
 }
 
@@ -75,24 +76,26 @@ form {
 
 
 /*  to do list starts from here*/
-.completed {
-    background-color: rgb(114, 114, 114);
-    color: grey;
 
-}
 .todo-item {
   padding: 10px;
-  background-color: white;
+  background-color: rgb(233, 233, 233);
   margin: auto;
   list-style: none;
+
   
 }
+.completed {
+    background-color: rgb(255, 154, 154);
+    color: rgb(0, 0, 0);
 
+}
 .todo {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 30px;
+  
 
 }
 li, .complete-button, .trash-button {
@@ -105,9 +108,15 @@ li {
   width: 80%;
 }
 
-.complete-button , .trash-button{
+.complete-button {
   padding: 0px 10px;
-  background-color: pink;
+  background-color: rgb(94, 255, 99);
+  border: none;
+  
+}
+.trash-button{
+  padding: 0px 10px;
+  background-color: rgb(252, 164, 178);
   border: none;
   
 }
