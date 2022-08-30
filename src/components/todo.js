@@ -22,7 +22,7 @@ const Todo = ({text, todos, setTodos, todo}) => {
                 Complete
             </button>
             <button className='trash-button' onClick={deleteHandler}>
-                Trash
+                Delete
             </button>
         </div>
 

@@ -20,7 +20,7 @@ const Form = ({setInputText, todos, setTodos, inputText, setStatus}) => {
         <form class='form' placeholder='Type your to-dos'>
             <input value={inputText} onChange={inputTextHandler} type='text' className='todo-input' />
             <button onClick={submitTodoHandler} type='submit' className='todo-button'  >
-                <i>Submit</i>
+                <st>Add to list</st>
             </button>
             <div className='select'>
                 <select onChange={statusHandler} className='filter-todo'>
