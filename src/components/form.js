@@ -17,7 +17,7 @@ const Form = ({setInputText, todos, setTodos, inputText, setStatus}) => {
         setStatus(e.target.value);
     }
     return(
-        <form>
+        <form class='form' placeholder='Type your to-dos'>
             <input value={inputText} onChange={inputTextHandler} type='text' className='todo-input' />
             <button onClick={submitTodoHandler} type='submit' className='todo-button'  >
                 <i>Submit</i>

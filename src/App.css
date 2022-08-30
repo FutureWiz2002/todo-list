@@ -1,15 +1,79 @@
-body {
-  background-image: linear-gradient(to right, #E55D87 ,#5FC3E4) ;
-  transition: 0.1s;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header {
-  text-align: center;
-  color: white;
+body {
+  background-color: #86E3CE;
+  font-family: Arial, Helvetica;
+  width: 100%;
+  
+  
 
 }
+header, form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  color: rgb(80, 80, 80);
+  margin: 20px;
+}
+
+
+form input, form button, .select {
+  padding: 0.5rem;
+  height:40px;
+  border:none;
+  background: white;
+  margin: 20px 30px;;
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+form input {
+  width: 100%;
+}
+
+form input:focus {
+  border-width: 2px;
+  border-color: black;
+  transition: width 0.4s ease-in-out;
+
+}
+form button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: lightpink;
+  transition: .2s;
+}
+
+select {
+  width: 100%;
+  padding: 1px 20px;
+  border: none;
+  border-radius: 5px;
+}
+form {
+  margin: 20px 10%;
+}
+
+
+
 .completed {
-    background-color: darkgray;
+    background-color: rgb(114, 114, 114);
     color: grey;
 
 }
