@@ -5,8 +5,7 @@
 }
 
 body {
-  background: rgb(34,193,195);
-  background: linear-gradient(94deg, rgba(34,193,195,1) 0%, rgb(255, 213, 122) 100%);
+  background: #E7DACB;
   font-family: sans-serif;
   width: 100%;
   
@@ -84,47 +83,63 @@ form {
  
 }
 .completed {
-    background-color: rgb(255, 154, 154);
-    color: rgb(0, 0, 0);
+    background-color: rgb(213, 213, 213);
+    color: rgb(93, 93, 93);
+
 
 }
 .todo {
   display: flex;
-  align-items: center;
   justify-content: space-around;
   margin: 30px;
   
 
 }
+.todo-container {
+  padding: 50px;
+  background-color: #a88b67;
+  margin: 20px;
+  border-radius: 20px;
+
+}
+
+
 li, .complete-button, .trash-button {
   height: 50px;
-
 
 }
 
 li {
   width: 80%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
 }
 
 .complete-button {
   padding: 0px 10px;
-  background-color: rgb(94, 255, 99);
+  background-color: rgb(194, 131, 59);
   border: none;
+
   
 }
 
 .complete-button:hover {
-  background-color: rgb(44, 255, 51);
+  background-color: rgb(167, 97, 40);
+  
 
 }
 .trash-button{
   padding: 0px 10px;
-  background-color: rgb(255, 167, 167);
+  background-color: rgb(194, 131, 59);
   border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   
 }
+
 .trash-button:hover {
-  background-color: rgb(255, 126, 126);
+  background-color: rgb(167, 97, 40);
 
 }
 
