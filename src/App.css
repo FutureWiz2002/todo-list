@@ -44,7 +44,6 @@ form input {
 form input:focus {
   border-width: 2px;
   border-color: black;
-  transition: width 0.4s ease-in-out;
 
 }
 form button {
@@ -58,7 +57,7 @@ form button {
 
 form button:hover {
   background-color: rgb(101, 236, 122);
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 select {
@@ -118,7 +117,7 @@ li {
 
 .complete-button {
   padding: 0px 10px;
-  background-color: rgb(194, 131, 59);
+  background-color: rgb(201, 143, 77);
   border: none;
 
   
@@ -131,7 +130,7 @@ li {
 }
 .trash-button{
   padding: 0px 10px;
-  background-color: rgb(194, 131, 59);
+  background-color: rgb(201, 143, 77);
   border: none;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
