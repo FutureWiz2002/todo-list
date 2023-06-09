@@ -5,7 +5,7 @@ import Form from "./components/form"
 import Todolist from './components/todolist';
 
 function App() {
-  const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState(""); // To empty the form once a task is entered
   const [todos, setTodos] = useState([]);
   const [status, setStatus] = useState('all');
   const [fliteredtodos, setFilteredtodos] = useState([]);
